@@ -15,7 +15,6 @@ body {
   font-family: "Poppins", sans-serif;
   color: #323232;
   font-weight: 500;
-  line-height: 2.4rem;
 }
 
 .paragraph, .heading-4, .heading-3, .heading-2, .heading-1 {
@@ -346,160 +345,18 @@ pre {
   position: relative;
   overflow-x: hidden;
 }
-@media screen and (max-width: 1240px) {
-  .section-01-meeting .heading-1__heading {
-    font-size: 14rem;
-  }
-}
-@media screen and (max-width: 1070px) {
-  .section-01-meeting .heading-1__heading {
-    font-size: 12rem;
-  }
-}
-@media screen and (max-width: 990px) {
-  .section-01-meeting .heading-1__heading {
-    font-size: 11.5rem;
-  }
-}
-@media screen and (max-width: 920px) {
-  .section-01-meeting .heading-1__heading {
-    font-size: 10rem;
-  }
-}
-@media screen and (max-width: 850px) {
-  .section-01-meeting .heading-1__heading {
-    font-size: 9rem;
-  }
-}
-@media screen and (max-width: 760px) {
-  .section-01-meeting .heading-1__heading {
-    font-size: 8rem;
-  }
-}
-@media screen and (max-width: 690px) {
-  .section-01-meeting .heading-1__heading {
-    font-size: 7rem;
-  }
-}
-@media screen and (max-width: 610px) {
-  .section-01-meeting .heading-1__heading {
-    font-size: 6.5rem;
-  }
-}
-@media screen and (max-width: 535px) {
-  .section-01-meeting .heading-1__heading {
-    font-size: 6rem;
-  }
-}
-.section-01-meeting .vector-height {
-  height: 13.8rem;
-}
-@media screen and (max-width: 1240px) {
-  .section-01-meeting .vector-height {
-    height: 11rem;
-  }
-}
-@media screen and (max-width: 1070px) {
-  .section-01-meeting .vector-height {
-    height: 9rem;
-  }
-}
-@media screen and (max-width: 850px) {
-  .section-01-meeting .vector-height {
-    height: 7rem;
-  }
-}
-@media screen and (max-width: 690px) {
-  .section-01-meeting .vector-height {
-    height: 6rem;
-  }
-}
-.section-01-meeting .vector-art-right {
-  position: absolute;
-  right: 0;
-  z-index: -1;
-  top: 25rem;
-}
-@media screen and (max-width: 1070px) {
-  .section-01-meeting .vector-art-right {
-    top: 27rem;
-    height: 10rem;
-  }
-}
-@media screen and (max-width: 850px) {
-  .section-01-meeting .vector-art-right {
-    height: 9rem;
-  }
-}
-@media screen and (max-width: 690px) {
-  .section-01-meeting .vector-art-right {
-    top: 28rem;
-    height: 7rem;
-  }
-}
 .section-01-meeting__btn {
   border: none;
   display: inline-block;
-  margin-left: 6rem;
-  transform: translateY(-4rem);
-  width: 28rem;
-  font-size: 2.4rem;
+  font-size: 2rem;
   color: #fff;
   background-color: #5c3fc6;
-  padding: 2.5rem 0;
+  padding: 2rem 0;
   outline: 1px solid #5c3fc6;
   outline-offset: 1rem;
   border-radius: 34rem;
   transition: all 0.1s;
   cursor: pointer;
-}
-@media screen and (max-width: 1070px) {
-  .section-01-meeting__btn {
-    padding: 2rem 0;
-    width: 24rem;
-    transform: translateY(-2.7rem);
-    font-size: 2rem;
-  }
-}
-@media screen and (max-width: 920px) {
-  .section-01-meeting__btn {
-    transform: translateY(-2.5rem);
-    padding: 1.8rem 0;
-    width: 20rem;
-    font-size: 1.6rem;
-  }
-}
-@media screen and (max-width: 850px) {
-  .section-01-meeting__btn {
-    transform: translateY(-2rem);
-    width: 19rem;
-    padding: 1.6rem 0;
-  }
-}
-@media screen and (max-width: 760px) {
-  .section-01-meeting__btn {
-    transform: translateY(-2rem);
-    width: 17rem;
-    padding: 1.4rem 0;
-  }
-}
-@media screen and (max-width: 690px) {
-  .section-01-meeting__btn {
-    transform: translateY(-1.5rem);
-    width: 15rem;
-    padding: 1.4rem 0;
-    font-size: 1.4rem;
-  }
-}
-@media screen and (max-width: 580px) {
-  .section-01-meeting__btn {
-    margin-left: 4rem;
-  }
-}
-@media screen and (max-width: 560px) {
-  .section-01-meeting__btn {
-    margin-left: 2rem;
-  }
 }
 .section-01-meeting__btn:hover {
   outline-offset: -0.5rem;
@@ -510,6 +367,29 @@ pre {
   outline: 1px solid #fff;
   outline-offset: -0.8rem;
   background-color: #5136b6;
+}
+
+.heading-and-meeting-container {
+  width: 100%;
+}
+.heading-and-meeting-container .main-heading {
+  font-size: 10vw;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+.heading-and-meeting-container .vector-height {
+  height: 16rem;
+  flex-shrink: 2;
+}
+.heading-and-meeting-container .art-and-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.heading-and-meeting-container .section-01-meeting__btn {
+  min-width: 200px;
+  width: 400px;
 }
 
 .section-02-services {
